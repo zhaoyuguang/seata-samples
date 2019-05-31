@@ -28,6 +28,21 @@
     <name>seata-samples-dubbo ${project.version}</name>
     <dependencies>
         <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.7.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-registry-nacos</artifactId>
+            <version>2.7.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-client</artifactId>
+            <version>1.0.0-RC3</version>
+        </dependency>
+        <dependency>
             <groupId>io.seata</groupId>
             <artifactId>seata-all</artifactId>
         </dependency>
